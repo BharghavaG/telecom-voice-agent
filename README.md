@@ -91,14 +91,14 @@ The agent uses speech-to-text, large language models, and text-to-speech technol
 - Join the LiveKit room from a client application.
 - The agent greets the customer automatically.
 - Customers can ask about:
- - Billing issues
- - Recharge plans
- - Internet problems
- - Technical support
- - The agent responds conversationally using voice.
+  - Billing issues
+  - Recharge plans
+  - Internet problems
+  - Technical support
+  - The agent responds conversationally using voice.
 - Calls are automatically ended when:
- - The customer says goodbye or wants to cuts the call
- - The customer remains inactive for a configured timeout period
+  - The customer says goodbye or wants to cuts the call
+  - The customer remains inactive for a configured timeout period
 
 ---
 
