@@ -109,11 +109,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-## If you like this project
-Consider starring the repository to support the project.
-
----
-
 ## Acknowledgments
 - LiveKit for the real-time communication framework
 - OpenAI for language models
@@ -122,6 +117,10 @@ Consider starring the repository to support the project.
 
 ---
 
-## Contact
+## If you like this project
+Consider starring the repository to support the project.
 
+---
+
+## Contact
 For any questions or suggestions, please open an issue or contact us at goudibharghava@gmail.com.
