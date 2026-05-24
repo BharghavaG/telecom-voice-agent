@@ -96,7 +96,7 @@ The agent uses speech-to-text, large language models, and text-to-speech technol
   - Recharge plans
   - Internet problems
   - Technical support
-  - The agent responds conversationally using voice.
+- The agent responds conversationally using voice.
 - Calls are automatically ended when:
   - The customer says goodbye or wants to cuts the call
   - The customer remains inactive for a configured timeout period
