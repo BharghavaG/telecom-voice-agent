@@ -39,33 +39,34 @@ The agent uses speech-to-text, large language models, and text-to-speech technol
 ## Installation and Setup:
 1. This project was built using uv package. Make sure you have uv package installed.
 2. This project requires python version>=13. Not using the right verison can cause errors.
-3. ```bash
+3. Clone the repository:
+   ```bash
    https://github.com/BharghavaG/telecom-voice-agent.git
    ```
-4. Initializing uv:
+5. Initializing uv:
    ```bash
    uv init telecom-agent --bare
    ```
-5. Install the required dependencies:
+6. Install the required dependencies:
    ```bash
    uv add -r requirements.txt
    ```
-6. Create a .env file and fill the details. You can find your API key after creating a free account on [Livekit](https://livekit.com). The API key is FREE. Create a new project.
-7. Open the terminal venv and run the following command this will install required models:
+7. Create a .env file and fill the details. You can find your API key after creating a free account on [Livekit](https://livekit.com). The API key is FREE. Create a new project.
+8. Open the terminal venv and run the following command this will install required models:
    ```bash
    uv run agent.py download-files
    ```
-8. After downloading run the following command to run the agent in the console:
+9. After downloading run the following command to run the agent in the console:
    ```bash
    uv run agent.py console
    ```
-9. If you want to see the list or change the input, output devices you use the following commands:
+10. If you want to see the list or change the input, output devices you use the following commands:
     ```bash
     uv run agent.py console --list-devices
     uv run agent.py console --input-device "device name or ID"
     uv run agent.py console --ouptut-device "device name or ID"
     ```
-10. To deploy the model to the livekit cloud download the livekit cli:
+11. To deploy the model to the livekit cloud download the livekit cli:
 - windows
     ```bash
     winget install LiveKit.LiveKitCLI
