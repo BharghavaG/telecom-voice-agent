@@ -1,3 +1,4 @@
 livekit-agents[silero,turn-detector]
 livekit-plugins-noise-cancellation
 python-dotenv
+torch
