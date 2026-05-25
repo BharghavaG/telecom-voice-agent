@@ -84,7 +84,16 @@ The agent uses speech-to-text, large language models, and text-to-speech technol
     lk agent create
     ```
     Now you can view and test your model in the console.
-
+13. To connect to a room other than the playground you can use [LivekitMeet](https://meet.livekit.io/) and select custom.
+14. In the terminal use the following command to run the agent:
+    ```bash
+    uv run agent.py dev
+    ```
+15. To generate the token and the url needed use the following command:
+    ```bash
+    lk token create --join --room <room-name> --identity <user-name> --valid-for <duration>
+    ```
+16. Now you can interact with your agent. You can view the agent logs in your terminal and view analytics on the livekit console.
 ---
 
 ## Usage
