@@ -79,7 +79,7 @@ The agent uses speech-to-text, large language models, and text-to-speech technol
     ```bash
     lk cloud auth
     ```
-12. Deplot your agent using the following command:
+12. Deploy your agent using the following command:
     ```bash
     lk agent create
     ```
