@@ -54,7 +54,7 @@ The agent uses speech-to-text, large language models, and text-to-speech technol
 7. Create a .env file and fill the details. You can find your API key after creating a free account on [Livekit](https://livekit.com). The API key is FREE. Create a new project.
 8. Open the terminal venv and run the following command this will install required models:
    ```bash
-   python -m livekit.agents download-files
+   uv run agent.py download-files
    ```
 9. After downloading run the following command to run the agent in the console:
    ```bash
